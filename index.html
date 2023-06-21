@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Shop</title>
+
+   <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@ 0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+    <!-- Faether Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- custom CSS file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Bakery<span>Shop</span>.</a>
+
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#tentang_kami">About</a>
+            <a href="#review">Review</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="cake-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home section start -->
+
+    <section class="home" id="home">
+        <div class="slides-container">
+
+            <div class="slide active">
+                <div class="content">
+                    <span>Have a cake-A-Licious</span>
+                    <h3>upto 50% off</h3>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+                <div class="img">
+                    <img src="img/shop.jpg" class="cake" alt=" ">
+                </div>
+            </div>
+
+            <div class="slide active">
+                <div class="content">
+                    <span>Have a cake-A-Licious</span>
+                    <h3>upto 50% off</h3>
+                    <a href="#" class="btn">Shop now</a>
+                </div>
+                <div class="img">
+                    <img src="img/1.avif" class="cake" alt=" ">
+                </div>
+            </div>
+
+            <div class="slide active">
+                <div class="content">
+                    <span>Have a cake-A-Licious</span>
+                    <h3>upto 50% off</h3>
+                    <a href="#" class="btn">Shop now</a>
+                </div>
+                <div class="img">
+                    <img src="img/3.avif" class="cake" alt=" ">
+                </div>
+            </div>
+
+        </div>
+        <div id="next-slide" class="fas fa-angel-right" onclick="next()"></div>
+        <div id="prev-slide" class="fas fa-angel-left" onclick="next()"></div>
+    </section>
+
+    <!--  -->
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="img/ikon1.jpg" alt="">
+            <div class="content">
+            <span>Limited saless</span>
+            <h3>uppo 50% off</h3>
+            <a href="#" class="btn">Shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="img/ikon3.jpg" alt="">
+            <div class="content">
+            <span>Limited saless</span>
+            <h3>uppo 50% off</h3>
+            <a href="#" class="btn">Shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="img/rose.avif" alt="">
+            <div class="content">
+            <span>Limited saless</span>
+            <h3>uppo 50% off</h3>
+            <a href="#" class="btn">Shop now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Start -->
+    <div class="heading">
+        <h1>Our Shop</h1>
+        <p> <a href="#home">home>> </a> Shop </p>
+    </div>
+
+    <div class="category">
+        <h1 class="title">our <span>Category</span> <a href="#">View ALL >> </a></h1>
+
+    </div>
+
+    <!-- Produk -->
+    <section class="Product">
+        <h1 class="title">Our <span>Product</span> <a href="#">View All </a></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/produk1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>fruit banana</h3>
+                    <div class="price">19.000</div>
+                    <div class="star"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Feather Icons -->
+     <script>
+        feather.replace()
+     </script>
+
+     <!-- My Javascript -->
+     <script src="script.js"></script>
+
+
+
+
+
+
+</body>
+</html>
